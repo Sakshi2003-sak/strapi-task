@@ -33,7 +33,7 @@ database/ – local database files
 README.md – documentation
 
 Initialize Git Repository
-git init
+git init 
 git branch -M main
 git checkout -b sakshi-strapi
 
