@@ -59,3 +59,10 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+## Task Submission
+
+- Strapi application set up locally
+- Admin panel verified
+- Sample content type created
+- PR raised from `sakshi-strapi` to `main`
