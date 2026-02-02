@@ -1,47 +1,45 @@
-# Strapi Task – Local Setup
+# Strapi Local Setup – DevOps Task
 
-This repository contains my task submission for setting up **Strapi locally**, exploring its structure, creating a sample content type, and pushing the setup to GitHub with proper documentation.
+This repository documents the steps followed to clone, run, and validate **Strapi locally**, create a sample content type, and add sample content as part of the DevOps task.
 
 ---
 
-## 🔧 Prerequisites
+## 🔧 Environment & Tools
 
-Before starting, the following tools were installed:
+- Node.js (LTS)
+- Yarn
+- Git
+- Strapi (official repository)
 
-- **Node.js** (v20.x)
-- **npm**
-- **Git**
-- **Strapi**
+---
 
+## 📥 Repository Setup
 
-Project Setup Steps
-Create Strapi Application
-bash
-npx create-strapi-app my-strapi-app
-cd my-strapi-app
+### Step 1: Clone the Strapi Repository
 
-npm run develop
-http://localhost:1337
-http://localhost:1337/admin
+```bash
+git clone https://github.com/strapi/strapi.git
+cd strapi
 
- Explore Project Folder Structure
-Key folders explored:
-config/ – project configuration
-src/ – APIs and content types
-public/ – public assets
-database/ – local database files
-README.md – documentation
+Dependency install
+Node.js
+node -v
+npm -v
 
-Initialize Git Repository
-git init 
-git branch -M main
+Yarn
+yarn install
+corepack enable
+yarn -v
+
+Git
+git clone https://github.com/strapi/strapi.git
+git init
 git checkout -b sakshi-strapi
+git push
 
-git add .
-git commit -m "Initial Strapi setup"
-git push origin sakshi-strapi
+Strapi Run Command
+yarn develop
 
-Pull Request
-Pull Request raised from sakshi-strapi → main
+
 
 
